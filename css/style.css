@@ -1,0 +1,45 @@
+*{
+    text-decoration: none;
+    margin:  0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* Globales */
+#contenedor{
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/* Header */
+.site-header.inicio{
+    background-image: url("../imagenes/La-Atitlan.jpg");
+    height: 50vh;
+    min-height: 600px;
+    background-position: center center;
+    background-size: cover;
+}
+.site-header.inicio h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color:  rgb(242, 255, 108);
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+/* Navegación */
+.navegación a{
+    color: #FFDAB9;
+    font-size: 1.8rem;
+    margin-right: 20px;
+}
+.navegación a:hover{
+    color:#800080;
+}
+.navegación a:last-of-type{
+    margin-right: 0rem;
+}
+
